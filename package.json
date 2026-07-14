@@ -1,0 +1,17 @@
+{
+  "name": "norion-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot inteligente da Norion (norion.ind.br) usando a API do Claude",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
